@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "01755999faf14661",
+        "id": "f2f224998309966d",
         "type": "tabs",
         "children": [
           {
-            "id": "f8a2aec2bbc3b8c8",
+            "id": "57381124cf81d940",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-10-19-blur-detection-at-capture"
+              "title": "New tab"
             }
           }
         ]
@@ -83,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b3a4705e01295346",
@@ -100,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -162,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -190,11 +182,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "f8a2aec2bbc3b8c8",
+  "active": "57381124cf81d940",
   "lastOpenFiles": [
-    "README.md",
     "ekyc/2026-10-19-blur-detection-at-capture.md",
-    "ekyc",
-    "temp_msg"
+    "temp_msg",
+    "README.md",
+    "ekyc"
   ]
 }
