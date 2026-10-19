@@ -11,10 +11,14 @@
             "id": "57381124cf81d940",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-10-19-blur-detection-at-capture"
             }
           }
         ]
@@ -79,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b3a4705e01295346",
@@ -95,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ekyc/2026-10-19-blur-detection-at-capture.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -184,8 +192,8 @@
   },
   "active": "57381124cf81d940",
   "lastOpenFiles": [
-    "ekyc/2026-10-19-blur-detection-at-capture.md",
     "temp_msg",
+    "ekyc/2026-10-19-blur-detection-at-capture.md",
     "README.md",
     "ekyc"
   ]
