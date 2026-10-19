@@ -1,0 +1,9 @@
+{
+  "remoteURL": "https://github.com/wp-deepak-singh/research-labs",
+  "gitLocation": "",
+  "syncinterval": 0,
+  "isSyncOnLoad": true,
+  "checkStatusOnLoad": true,
+  "noticeLevel": "ALL",
+  "showSyncSuccessNotice": true
+}
