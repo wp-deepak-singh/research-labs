@@ -1,7 +1,3 @@
-# Blur detection pipeline for eKYC: overview
-
-Related notes: [What runs where](2026-10-20-blur-detection-what-runs-where.md), [MediaPipe and free tools](2026-10-20-mediapipe-and-free-tools-for-capture-quality.md), [Backend-only scoring](2026-10-19-backend-only-image-quality-scoring.md).
-
 ## Purpose
 
 We want to add a blur detection pipeline to our eKYC application. It runs whenever a dealer does an eKYC, on both ID documents and selfies, so that unclear photos are caught and retaken before the application is submitted.
@@ -19,7 +15,6 @@ In scope:
 Out of scope:
 
 - Blur or glare scoring on the live camera feed.
-- Fraud checks, face matching, and OCR.
 
 ## Summary
 
@@ -27,13 +22,13 @@ When a dealer takes a selfie or a photo of an ID card, the app helps them line i
 
 ## Tools
 
-| Job | Where it runs | Tool |
-|---|---|---|
-| Face detection | Web and Android apps | [MediaPipe Face Detector](https://ai.google.dev/edge/mediapipe/solutions/vision/face_detector) |
-| Selfie guidance (face in frame, size, eyes open) | Web and Android apps | MediaPipe ([Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker)) |
-| Document guidance (card in frame) | Web and Android apps | A frame overlay in the app. MediaPipe has no document detector ([MediaPipe tasks](https://ai.google.dev/edge/mediapipe/solutions/guide)). [jscanify](https://github.com/puffinsoft/jscanify) is optional. |
-| Blur detection | Backend | [OpenCV](https://opencv.org/license/), variance of the [Laplacian](https://docs.opencv.org/4.x/d5/db5/tutorial_laplace_operator.html) |
-| Glare detection | Backend | OpenCV, bright-pixel mask with [inRange](https://docs.opencv.org/4.x/da/d97/tutorial_threshold_inRange.html) |
+| Job                                              | Where it runs        | Tool                                                                                                                                  |
+| ------------------------------------------------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Face detection                                   | Web and Android apps | [MediaPipe Face Detector](https://ai.google.dev/edge/mediapipe/solutions/vision/face_detector)                                        |
+| Selfie guidance (face in frame, size, eyes open) | Web and Android apps | MediaPipe ([Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker))                                  |
+| Document guidance (card in frame)                | Web and Android apps | A frame overlay in the app. This is to be drawn as an overlay on the screen.                                                          |
+| Blur detection                                   | Backend              | [OpenCV](https://opencv.org/license/), variance of the [Laplacian](https://docs.opencv.org/4.x/d5/db5/tutorial_laplace_operator.html) |
+| Glare detection                                  | Backend              | OpenCV, bright-pixel mask with [inRange](https://docs.opencv.org/4.x/da/d97/tutorial_threshold_inRange.html)                          |
 
 Reference code:
 
@@ -47,8 +42,6 @@ All accessed 2026-10-20.
 - [MediaPipe Face Detector](https://ai.google.dev/edge/mediapipe/solutions/vision/face_detector)
 - [MediaPipe Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker)
 - [MediaPipe solutions guide](https://ai.google.dev/edge/mediapipe/solutions/guide)
-- [jscanify](https://github.com/puffinsoft/jscanify)
-- [OpenCV licence](https://opencv.org/license/)
 - [OpenCV Laplacian tutorial](https://docs.opencv.org/4.x/d5/db5/tutorial_laplace_operator.html)
 - [OpenCV inRange tutorial](https://docs.opencv.org/4.x/da/d97/tutorial_threshold_inRange.html)
 - [BlurDetection2](https://github.com/WillBrennan/BlurDetection2/blob/master/blur_detection/detection.py)
