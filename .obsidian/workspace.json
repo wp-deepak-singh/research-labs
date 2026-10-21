@@ -11,14 +11,14 @@
             "id": "afc5b60093e82d82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "ekyc/ID document tamper detection in eKYC.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "ID document tamper detection in eKYC"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -202,9 +202,9 @@
   },
   "active": "afc5b60093e82d82",
   "lastOpenFiles": [
-    "ekyc/Blur detection pipeline for eKYC.md",
     "ekyc/ID document tamper detection in eKYC.md",
     "temp_msg",
+    "ekyc/Blur detection pipeline for eKYC.md",
     "ekyc/2026-10-20-mediapipe-and-free-tools-for-capture-quality.md",
     "ekyc/2026-10-20-blur-detection-what-runs-where.md",
     "ekyc/2026-10-19-backend-only-image-quality-scoring.md",
