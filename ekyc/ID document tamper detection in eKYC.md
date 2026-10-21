@@ -47,3 +47,6 @@ A rule check confirms that the expiry date has not passed and that the issue dat
 
 The backend checks the MRZ layout and its check digits against [ICAO Doc 9303 Part 4](https://www.icao.int/sites/default/files/publications/DocSeries/9303_p4_cons_en.pdf), section 4.2. It also confirms that the MRZ matches the printed fields.
 
+### 9. Matching Face in selfie & ID document
+
+https://github.com/opencv/opencv_zoo/tree/main/models/face_recognition_sface
