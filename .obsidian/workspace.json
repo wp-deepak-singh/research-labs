@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "33f8fd966d9b56c1",
+        "id": "f1a18086bcfbfd2c",
         "type": "tabs",
         "children": [
           {
-            "id": "afc5b60093e82d82",
+            "id": "5da54b5ba3073d7e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "ekyc/ID document tamper detection in eKYC.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "ID document tamper detection in eKYC"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b3a4705e01295346",
@@ -200,15 +199,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afc5b60093e82d82",
+  "active": "15eaaad9ee2e440b",
   "lastOpenFiles": [
+    "ekyc/Face detection.md",
+    "ekyc/Blur detection pipeline for eKYC.md",
     "ekyc/ID document tamper detection in eKYC.md",
     "temp_msg",
-    "ekyc/Blur detection pipeline for eKYC.md",
     "ekyc/2026-10-20-mediapipe-and-free-tools-for-capture-quality.md",
     "ekyc/2026-10-20-blur-detection-what-runs-where.md",
     "ekyc/2026-10-19-backend-only-image-quality-scoring.md",
-    "ekyc/Face detection.md",
     "ekyc/2026-10-19-blur-detection-web-android-build-brief.md",
     "ekyc/2026-10-19-blur-detection-at-capture.md",
     "README.md",
