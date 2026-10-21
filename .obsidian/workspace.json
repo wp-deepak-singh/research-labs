@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b3a4705e01295346",
@@ -199,12 +200,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15eaaad9ee2e440b",
+  "active": "5da54b5ba3073d7e",
   "lastOpenFiles": [
-    "ekyc/Face detection.md",
-    "ekyc/Blur detection pipeline for eKYC.md",
+    "ekyc/ID document tamper detection in eKYC.md",
     "ekyc/ID document tamper detection in eKYC.md",
     "temp_msg",
+    "ekyc/Face detection.md",
+    "ekyc/Blur detection pipeline for eKYC.md",
     "ekyc/2026-10-20-mediapipe-and-free-tools-for-capture-quality.md",
     "ekyc/2026-10-20-blur-detection-what-runs-where.md",
     "ekyc/2026-10-19-backend-only-image-quality-scoring.md",
