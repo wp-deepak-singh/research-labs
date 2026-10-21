@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ekyc/Blur detection pipeline for eKYC.md",
+                "file": "ekyc/Face detection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blur detection pipeline for eKYC"
+              "title": "Face detection"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b3a4705e01295346",
@@ -170,33 +169,43 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "c13bc674dc71c6d2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 304.25,
-    "collapsed": true
+    "width": 304.25
   },
   "left-ribbon": {
     "hiddenItems": {
-      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "afc5b60093e82d82",
   "lastOpenFiles": [
-    "ekyc/2026-10-20-mediapipe-and-free-tools-for-capture-quality.md",
     "ekyc/Blur detection pipeline for eKYC.md",
-    "ekyc/2026-10-19-backend-only-image-quality-scoring.md",
-    "temp_msg",
     "ekyc/Face detection.md",
+    "temp_msg",
+    "ekyc/2026-10-20-mediapipe-and-free-tools-for-capture-quality.md",
+    "ekyc/2026-10-19-backend-only-image-quality-scoring.md",
     "ekyc/2026-10-20-blur-detection-what-runs-where.md",
     "ekyc/2026-10-19-blur-detection-web-android-build-brief.md",
     "ekyc/2026-10-19-blur-detection-at-capture.md",
